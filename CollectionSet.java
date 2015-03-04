@@ -9,6 +9,7 @@ class CollectionSet{
 				newSet.add(count[i]);
 			}
 			System.out.println("the set elements are \t" +newSet);
+			System.out.println(newSet.contains(33));
 		}
 		catch(Exception e){
 

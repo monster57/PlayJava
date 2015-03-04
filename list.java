@@ -7,8 +7,10 @@ class CollectionDemo{
     arr.add("b");
     arr.add("c");
     arr.add("d");
+    String joined = String.join("+", arr);
     System.out.println("ArrayList element");
-    System.out.print("\t"+arr);
+    System.out.println("\t"+arr);
+    System.out.println(joined);
 
 
     List link  = new LinkedList();
